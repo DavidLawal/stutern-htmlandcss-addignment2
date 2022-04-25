@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 150px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 35px 20px 20px 10px;
+}
+
+ul li a {
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.gfc {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: white;
+  font-size: 13px;
+  background: #FF6363;
+  padding: 13px 26px 13px 26px;
+  text-decoration: none;
+}
+
+#background-picture {
+   background-image: url(bimage.jpg);
+   background-repeat: no-repeat no-repeat;
+   background-size: cover;
+   width: auto;
+}
+
+.main-content {
+    width: 40%;
+    padding-left: 100px;
+}
+
+h3 {
+    color: #FF6363;
+    padding: 80px 0 30px 0;
+}
+
+p {
+    padding: 30px 0;
+}
+
+h1 {
+    color: navy;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+#learn {
+    background-color: #FF6363;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#hire {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 100px 2px;
+    cursor: pointer;
+}
+
+
+.H2 {
+    width: 30%;
+    color: navy;
+    display: inline-block;
+    text-align: center;
+    margin-left: 55px;
+   
+}
+
+.H1 {
+    width: 30%;
+    color: navy;
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+}
